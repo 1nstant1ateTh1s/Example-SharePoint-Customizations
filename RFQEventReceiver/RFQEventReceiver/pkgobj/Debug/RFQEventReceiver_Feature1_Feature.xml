@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Reads the uploaded &quot;Request for Quote&quot; Excel document and populates the custom RFQs list with the data." Id="238f34f4-858f-4e13-92f6-90bbfce5452f" Scope="Web" Title="RFQEventReceiver ItemAddedEvent" Version="2.0.0.2">
+  <Properties>
+    <Property Key="GloballyAvailable" Value="true" />
+  </Properties>
+  <ElementManifests>
+    <ElementManifest Location="RFQEventReceiver\Elements.xml" />
+  </ElementManifests>
+</Feature>

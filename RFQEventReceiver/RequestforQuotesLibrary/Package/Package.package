@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" Id="d3bb9650-4d99-4c88-a99a-3349ee3e813f" solutionId="d3bb9650-4d99-4c88-a99a-3349ee3e813f" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="RequestforQuotesLibrary">
+    <features>
+        <featureReference  itemId="fb0bbba0-d363-43db-8dbf-2ef3d2970ca2" />
+    </features>
+</package>

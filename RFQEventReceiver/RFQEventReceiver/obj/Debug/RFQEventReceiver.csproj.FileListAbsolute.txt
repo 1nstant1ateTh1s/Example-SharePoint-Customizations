@@ -1,0 +1,5 @@
+c:\users\sp2010farm\documents\visual studio 2010\Projects\RFQEventReceiver\RFQEventReceiver\bin\Debug\RFQEventReceiver.dll
+c:\users\sp2010farm\documents\visual studio 2010\Projects\RFQEventReceiver\RFQEventReceiver\bin\Debug\RFQEventReceiver.pdb
+c:\users\sp2010farm\documents\visual studio 2010\Projects\RFQEventReceiver\RFQEventReceiver\obj\Debug\RFQEventReceiver.dll
+c:\users\sp2010farm\documents\visual studio 2010\Projects\RFQEventReceiver\RFQEventReceiver\obj\Debug\RFQEventReceiver.pdb
+C:\Users\sp2010farm\documents\visual studio 2010\Projects\RFQEventReceiver\RFQEventReceiver\bin\Debug\RFQEventReceiver.dll.config

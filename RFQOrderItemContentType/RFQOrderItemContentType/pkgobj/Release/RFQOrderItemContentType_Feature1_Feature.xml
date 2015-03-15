@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Represents an RFQ Order Item." Id="3119b3bc-670a-4f1b-b566-44e1515da9ce" Scope="Web" Title="RFQOrderItem ContentTypes">
+  <Properties>
+    <Property Key="GloballyAvailable" Value="true" />
+  </Properties>
+  <ElementManifests>
+    <ElementManifest Location="RFQOrderItem\Elements.xml" />
+    <ElementManifest Location="FES-RFQOrderItem\Elements.xml" />
+    <ElementManifest Location="SiteColumns\Elements.xml" />
+  </ElementManifests>
+</Feature>

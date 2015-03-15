@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" Id="f4a9d63f-ba51-447b-bac6-6c0463f1cdb8" solutionId="f4a9d63f-ba51-447b-bac6-6c0463f1cdb8" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="RFQOrderItemContentType">
+    <features>
+        <featureReference itemId="3119b3bc-670a-4f1b-b566-44e1515da9ce" />
+    </features>
+</package>

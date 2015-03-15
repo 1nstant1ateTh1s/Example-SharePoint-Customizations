@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Attaches &amp; e-mails an approved RFQ bid with a status of 'Ready to Send'." Id="48a8fd1a-92e9-4800-8bef-ab10bc965fe5" Scope="Web" Title="RFQSharePointProject - Submit RFQ Bid" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="SubmitRFQBid\Elements.xml" />
+  </ElementManifests>
+</Feature>

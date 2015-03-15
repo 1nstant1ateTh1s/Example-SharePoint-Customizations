@@ -1,0 +1,5 @@
+c:\users\sp2010farm\documents\visual studio 2010\Projects\RFQOrderItemContentType\RFQOrderItemContentType\bin\Debug\RFQOrderItemContentType.dll
+c:\users\sp2010farm\documents\visual studio 2010\Projects\RFQOrderItemContentType\RFQOrderItemContentType\bin\Debug\RFQOrderItemContentType.pdb
+c:\users\sp2010farm\documents\visual studio 2010\Projects\RFQOrderItemContentType\RFQOrderItemContentType\obj\Debug\RFQOrderItemContentType.dll
+c:\users\sp2010farm\documents\visual studio 2010\Projects\RFQOrderItemContentType\RFQOrderItemContentType\obj\Debug\RFQOrderItemContentType.pdb
+C:\Users\sp2010farm\documents\visual studio 2010\Projects\RFQOrderItemContentType\RFQOrderItemContentType\obj\Debug\RFQOrderItemContentType.csprojResolveAssemblyReference.cache

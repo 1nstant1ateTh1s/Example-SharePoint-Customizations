@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  
+  <CustomAction Id="GenRFQReturnFileAction" 
+                Location="CommandUI.Ribbon" 
+                RegistrationType="List" 
+                RegistrationId="100"
+                Title="Generate RFQ Return File Action"
+                Rights="ManageWeb">
+    <CommandUIExtension>
+      <!-- Define the UI button to be used for this custom action. -->
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.ListItem.Actions.Controls._children">
+
+          <Button Id="Ribbon.ListItem.Actions.Controls.GenRFQReturnFileButton" 
+                  Alt="Generate RFQ Return File" 
+                  Command="Gen_RFQ_Return_File" 
+                  Image32by32="/_layouts/1033/images/DownloadToExcel32.png"                  
+                  Sequence="0" 
+                  LabelText="Generate RFQ Return File" 
+                  TemplateAlias="o1"/>
+          
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <!-- Define the action expected on the button click. -->
+        <CommandUIHandler Command="Gen_RFQ_Return_File"
+                          CommandAction="javascript:rfqObj.rfqReturnFile.generate('{SelectedListId}','{SelectedItemId}');" 
+                          EnabledScript="javascript:rfqObj.rfqReturnFile.isEnabled();" />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+  
+</Elements>

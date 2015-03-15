@@ -1,0 +1,7 @@
+C:\Users\sp2010farm\documents\visual studio 2010\Projects\RFQEventReceiver\RFQEventReceiver\bin\Release\RFQEventReceiver.dll.config
+C:\Users\sp2010farm\documents\visual studio 2010\Projects\RFQEventReceiver\RFQEventReceiver\bin\Release\RFQEventReceiver.dll
+C:\Users\sp2010farm\documents\visual studio 2010\Projects\RFQEventReceiver\RFQEventReceiver\bin\Release\RFQEventReceiver.pdb
+C:\Users\sp2010farm\documents\visual studio 2010\Projects\RFQEventReceiver\RFQEventReceiver\obj\Release\RFQEventReceiver.dll
+C:\Users\sp2010farm\documents\visual studio 2010\Projects\RFQEventReceiver\RFQEventReceiver\obj\Release\RFQEventReceiver.pdb
+C:\Users\sp2010farm\documents\visual studio 2010\Projects\RFQEventReceiver\RFQEventReceiver\bin\Release\RFQEventReceiver.XmlSerializers.dll
+C:\Users\sp2010farm\documents\visual studio 2010\Projects\RFQEventReceiver\RFQEventReceiver\obj\Release\RFQEventReceiver.XmlSerializers.dll

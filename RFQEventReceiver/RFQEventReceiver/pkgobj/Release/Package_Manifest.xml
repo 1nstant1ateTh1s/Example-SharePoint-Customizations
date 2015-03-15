@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="cac50825-a9c2-4278-9af8-77bb4f03a3f3" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="RFQEventReceiver.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="RFQEventReceiver_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

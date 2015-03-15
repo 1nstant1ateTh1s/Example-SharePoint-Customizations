@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="f4a9d63f-ba51-447b-bac6-6c0463f1cdb8" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="RFQOrderItemContentType.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="RFQOrderItemContentType_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

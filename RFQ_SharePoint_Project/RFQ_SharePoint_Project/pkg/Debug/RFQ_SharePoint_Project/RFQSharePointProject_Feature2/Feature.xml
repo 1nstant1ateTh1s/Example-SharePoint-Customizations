@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Exports the order item data for a particular RFQ to the appropriate Excel file in the  Request for Quotes Document Library." Id="cb3ac291-ecd5-4830-9063-32dbf010d356" Scope="Web" Title="RFQSharePointProject - Generate RFQ Return File Feature" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="GenerateRFQReturnFile\Elements.xml" />
+  </ElementManifests>
+</Feature>

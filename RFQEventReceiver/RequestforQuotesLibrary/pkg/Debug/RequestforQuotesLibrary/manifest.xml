@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="d3bb9650-4d99-4c88-a99a-3349ee3e813f" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="RequestforQuotesLibrary.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="RequestforQuotesLibrary_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

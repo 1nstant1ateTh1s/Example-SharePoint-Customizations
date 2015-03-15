@@ -1,0 +1,4 @@
+C:\Users\sp2010farm\Documents\Visual Studio 2010\Projects\RFQ_SharePoint_Project\RFQ_SharePoint_Project\bin\Release\RFQ_SharePoint_Project.dll
+C:\Users\sp2010farm\Documents\Visual Studio 2010\Projects\RFQ_SharePoint_Project\RFQ_SharePoint_Project\bin\Release\RFQ_SharePoint_Project.pdb
+C:\Users\sp2010farm\Documents\Visual Studio 2010\Projects\RFQ_SharePoint_Project\RFQ_SharePoint_Project\obj\Release\RFQ_SharePoint_Project.dll
+C:\Users\sp2010farm\Documents\Visual Studio 2010\Projects\RFQ_SharePoint_Project\RFQ_SharePoint_Project\obj\Release\RFQ_SharePoint_Project.pdb

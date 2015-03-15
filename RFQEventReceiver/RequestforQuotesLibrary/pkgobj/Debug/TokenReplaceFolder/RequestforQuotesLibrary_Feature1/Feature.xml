@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="My List Definition Feature" Id="fb0bbba0-d363-43db-8dbf-2ef3d2970ca2" Scope="Web" Title="RequestforQuotesLibrary Feature1">
+  <ElementManifests>
+    <ElementManifest Location="RequestForQuoteLibraryDefinition\Elements.xml" />
+    <ElementFile Location="RequestForQuoteLibraryDefinition\Schema.xml" />
+    <ElementFile Location="RequestForQuoteLibraryDefinition\EditDlg.htm" />
+    <ElementFile Location="RequestForQuoteLibraryDefinition\FileDlg.htm" />
+    <ElementFile Location="RequestForQuoteLibraryDefinition\Repair.aspx" />
+    <ElementFile Location="RequestForQuoteLibraryDefinition\Upload.aspx" />
+    <ElementManifest Location="RequestforQuotes\Elements.xml" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="101">
+    <Receiver>
+      <Name>RFQEventReceiverItemAdded</Name>
+      <Type>ItemAdded</Type>
+      <Assembly>RFQEventReceiver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2d7707965cf45bfc</Assembly>
+      <Class>RFQEventReceiver.RFQEventReceiver.RFQEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+      <Synchronization>Synchronous</Synchronization>
+    </Receiver>
+    <Receiver>
+      <Name>RFQEventReceiverItemAdding</Name>
+      <Type>ItemAdding</Type>
+      <Assembly>RFQEventReceiver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2d7707965cf45bfc</Assembly>
+      <Class>RFQEventReceiver.RFQEventReceiver.RFQEventReceiver</Class>
+      <SequenceNumber>1000</SequenceNumber>
+      <Synchronization>Synchronous</Synchronization>
+    </Receiver>
+    <Receiver>
+      <Name>RFQEventReceiverItemUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <Assembly>RFQEventReceiver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2d7707965cf45bfc</Assembly>
+      <Class>RFQEventReceiver.RFQEventReceiver.RFQEventReceiver</Class>
+      <SequenceNumber>1000</SequenceNumber>
+      <Synchronization>Synchronous</Synchronization>
+    </Receiver>
+    <Receiver>
+      <Name>RFQEventReceiverItemUpdating</Name>
+      <Type>ItemUpdating</Type>
+      <Assembly>RFQEventReceiver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2d7707965cf45bfc</Assembly>
+      <Class>RFQEventReceiver.RFQEventReceiver.RFQEventReceiver</Class>
+      <SequenceNumber>1000</SequenceNumber>
+      <Synchronization>Synchronous</Synchronization>
+    </Receiver>
+  </Receivers>
+</Elements>

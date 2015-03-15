@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="be8a54bf-d31c-42c0-b1ec-041c74329c09" solutionId="be8a54bf-d31c-42c0-b1ec-041c74329c09" resetWebServer="false" name="RFQ_SharePoint_Project" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="bd0fa632-d74f-4f09-8fcd-3e067e1b3c6a" />
+    <featureReference itemId="592b3a2a-1c78-47a4-a4db-074caa5c3f63" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="92fdd2f0-162c-4d78-b7bc-e2a17cb29fe6" />
+  </projectItems>
+</package>

@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  
+  <!-- Site Columns - RFQ Workflow Columns Group -->
+  
+  <!--<Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" 
+         Name="Title" 
+         SourceID="http://schemas.microsoft.com/sharepoint/v3" 
+         StaticName="Title" 
+         Group="_Hidden" 
+         Type="Text" 
+         DisplayName="Order Item ID" 
+         Required="FALSE" 
+         FromBaseType="TRUE" 
+         EnforceUniqueValues="FALSE" 
+         Indexed="FALSE" MaxLength="255" />-->
+  
+  <Field ID="{7897489C-3F16-4347-99BC-0C5B0857DE64}" 
+         DisplayName="Quote Number" 
+         Name="Quote_Number" 
+         Type="Text" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Quote_Number" />
+  
+  <Field ID="{88B61AF3-51CF-4F63-AD95-29406F8B5A91}" 
+         DisplayName="Region" 
+         Name="Region" 
+         Type="Text"  
+         Group="RFQ Workflow Columns" 
+         StaticName="Region" />
+  
+  <Field ID="{C04C4C45-7A53-40F5-8C26-8AEE603CC9B3}"
+         DisplayName="NSN" 
+         Name="NSN" 
+         Type="Text" 
+         Group="RFQ Workflow Columns" 
+         StaticName="NSN" />
+  
+  <Field ID="{693468E8-3F74-46BE-ABE6-4990372599F2}"
+         DisplayName="Quantity" 
+         Name="Quantity" 
+         Type="Number"  
+         Group="RFQ Workflow Columns" 
+         StaticName="Quantity" 
+         Decimals="0">
+    <Default>0</Default>
+  </Field>
+  
+  <Field ID="{9da97a8a-1da5-4a77-98d3-4bc10456e700}"
+         Name="Comments" 
+         FromBaseType="FALSE" 
+         Type="Text" 
+         DisplayName="Comments" 
+         Required="FALSE" 
+         EnforceUniqueValues="FALSE" 
+         Indexed="FALSE" 
+         MaxLength="255" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Comments" 
+         SourceID="http://schemas.microsoft.com/sharepoint/v3" 
+         Hidden="FALSE" 
+         ReadOnly="FALSE" />
+  
+  <Field ID="{BDAD87FE-A846-49E8-961D-E921EBBBFB4C}"
+         DisplayName="TLSP Vendor Extension" 
+         Name="TLSP_Vendor_Extension" 
+         Type="Text"  
+         Group="RFQ Workflow Columns" 
+         StaticName="TLSP_Vendor_Extension" />
+  
+  <Field ID="{6C65FABA-A0BD-439B-A204-E461BE3BE86D}"
+         DisplayName="Vendor ID" 
+         Name="Vendor_ID" 
+         Type="Text" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Vendor_ID" />
+  
+  <Field ID="{35FB9E8A-8B8D-4365-8757-A19D7FC4EEED}"
+         DisplayName="Region Group" 
+         Name="Region_Group" 
+         Type="Text" 
+         Group="RFQ Workflow Columns"
+         StaticName="Region_Group" />
+  
+  <Field DisplayName="Request Type" 
+         Name="Request_Type" 
+         Type="Text" 
+         ID="{EE528369-71CE-4B3C-9707-C7969BD87A0C}" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Request_Type" />
+  
+  <Field DisplayName="Core List Number" 
+         Name="Core_List_Number" 
+         Type="Text"
+         ID="{E50EB394-4863-4B4A-BF32-470A5E992D84}"
+         Group="RFQ Workflow Columns"
+         StaticName="Core_List_Number" />
+  
+  <Field DisplayName="Manufacturer Name" 
+         Name="Manufacturer_Name" 
+         Type="Text" 
+         ID="{DCB3EB00-C402-4BF0-B9A3-580A5C3295AF}" 
+         Group="RFQ Workflow Columns"
+         StaticName="Manufacturer_Name" />
+  
+  <Field DisplayName="Manufacturer Part Number"
+         Name="Manufacturer_Part_Number"
+         Type="Text" 
+         ID="{E22D61AF-ACB6-4671-80CF-1BCB4BE88B10}"
+         Group="RFQ Workflow Columns" 
+         StaticName="Manufacturer_Part_Number" />
+  
+  <Field DisplayName="TLSP Vendor Part Number" 
+         Name="TLSP_Vendor_Part_Number" 
+         Type="Text"
+         ID="{D92CD0E6-0E53-4808-B765-898135ADA360}" 
+         Group="RFQ Workflow Columns" 
+         StaticName="TLSP_Vendor_Part_Number" />
+  
+  <Field DisplayName="Item Description" 
+         Name="Item_Description" 
+         Type="Text" 
+         ID="{4598A276-E436-440E-AAF1-764F88158EFF}" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Item_Description" />
+  
+  <Field DisplayName="Additional Information" 
+         Name="Additional_Information" 
+         Type="Text" 
+         ID="{90BCBA7C-396D-42C6-979D-3426230B2478}"
+         Group="RFQ Workflow Columns" 
+         StaticName="Additional_Information" />
+  
+  <Field Format="DateOnly" 
+         DisplayName="Requested Delivery Date" 
+         Type="DateTime" 
+         ID="{34360C2C-7D0E-4E98-86EC-92CC7E08C2E9}" 
+         Name="Requested_Delivery_Date"
+         Group="RFQ Workflow Columns" 
+         StaticName="Requested_Delivery_Date" />
+  
+  <Field DisplayName="Unit of Issue" 
+         Name="Unit_of_Issue" 
+         Type="Text" 
+         ID="{CE759E35-0CBE-4361-AB75-2D9E79CD7AEF}" 
+         Group="RFQ Workflow Columns"
+         StaticName="Unit_of_Issue" />
+  
+  <Field DisplayName="Delivery Destination" 
+         Name="Delivery_Destination" 
+         Type="Text" 
+         ID="{94CB0F43-C15A-4CB2-863F-12413A04BD4C}" 
+         Group="RFQ Workflow Columns"
+         StaticName="Delivery_Destination" />
+  
+  <Field MaxLength="1" 
+         DisplayName="FOB Origin" 
+         Type="Text" 
+         ID="{F6F64D9C-8EE5-41C3-8ACA-1BCA21F04B31}" 
+         Name="FOB_Origin"
+         Group="RFQ Workflow Columns"
+         StaticName="FOB_Origin" />
+  
+  <Field MaxLength="1"
+         DisplayName="RFID Required"
+         Type="Text" 
+         ID="{4E24CB78-FD3D-41EF-BC6D-8C84FD3A30BE}" 
+         Name="RFID_Required"
+         Group="RFQ Workflow Columns"
+         StaticName="RFID_Required" />
+  
+  <Field DisplayName="Special Project Code" 
+         Name="Special_Project_Code" 
+         Type="Text" 
+         ID="{CBD62240-44CF-4AB4-9F5A-248175E9A546}"
+         Group="RFQ Workflow Columns" 
+         StaticName="Special_Project_Code" />
+  
+  <Field DisplayName="Transportation Price Required"
+         Name="Transportation_Price_Required" 
+         Type="Text" 
+         ID="{5B76F9CD-4C0D-412D-A9D2-41454813772A}" 
+         Group="RFQ Workflow Columns"
+         StaticName="Transportation_Price_Required" />
+  
+  <Field Decimals="2" 
+         Min="0"
+         Max="1000000000" 
+         LCID="1033" 
+         DisplayName="Transportation Price"
+         Type="Currency"
+         ID="{01C49A8D-B85A-411D-97AD-E508FC216071}"
+         Name="Transportation_Price" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Transportation_Price">
+    <Default>0</Default>
+  </Field>
+  
+  <Field Decimals="2"
+         Min="0"
+         Max="1000000000" 
+         LCID="1033"
+         DisplayName="Vendor Unit Price"
+         Type="Currency" 
+         ID="{EB989CC1-2734-428F-8222-FABF988AEABC}"
+         Name="Vendor_Unit_Price"
+         Group="RFQ Workflow Columns"
+         StaticName="Vendor_Unit_Price">
+    <Default>0</Default>
+  </Field>
+  
+  <Field MaxLength="3" 
+         DisplayName="Lead Time" 
+         Type="Text" 
+         ID="{6F3F729C-4D5D-435C-8762-DF325B8BC948}" 
+         Name="Lead_Time"
+         Group="RFQ Workflow Columns" 
+         StaticName="Lead_Time" 
+         SourceID="{b918e540-9f95-43f2-94d7-9b2c8fadc67b}" />
+  
+  <Field MaxLength="7"
+         DisplayName="Procurement Agreement Compliant" 
+         Type="Text" 
+         ID="{0EDCE0B8-0600-4C06-BCEF-53FF97E37D5E}"
+         Name="Procurement_Agreement_Compliant" 
+         Group="RFQ Workflow Columns"
+         StaticName="Procurement_Agreement_Compliant" />
+
+  <Field MaxLength="7" 
+         DisplayName="Trade Agreement Compliant" 
+         Type="Text" 
+         ID="{91A0840A-C7A0-4E54-976B-F2AFC5624C01}" 
+         Name="Trade_Agreement_Compliant"
+         Group="RFQ Workflow Columns" 
+         StaticName="Trade_Agreement_Compliant" />
+
+  <Field MaxLength="7"
+         DisplayName="Berry Amendment Compliant" 
+         Type="Text" 
+         ID="{3F2E5D7C-7A5B-4D45-97A2-1A409F8DAC00}" 
+         Name="Berry_Amendment_Compliant"
+         Group="RFQ Workflow Columns"
+         StaticName="Berry_Amendment_Compliant" />
+  
+  <Field DisplayName="Country of Origin" 
+         Name="Country_of_Origin" 
+         Type="Text" 
+         ID="{5E2939B4-CFB4-4545-BB0A-7E8372335621}" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Country_of_Origin" 
+         SourceID="{b918e540-9f95-43f2-94d7-9b2c8fadc67b}" />
+  
+  <Field MaxLength="1" 
+         DisplayName="Customer Permits Alternates" 
+         Type="Text" 
+         ID="{B7A0FB20-C9B9-4F95-A691-9FF385EDEDEB}"
+         Name="Customer_Permits_Alternates" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Customer_Permits_Alternates" />
+  
+  <Field DisplayName="Alternate Core List Number" 
+         Name="Alt_Core_List_Number" 
+         Type="Text"
+         ID="{EDD76E31-3BC2-442F-A903-3F44DD44B478}" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Alt_Core_List_Number" />
+  
+  <Field DisplayName="Alternate NSN" 
+         Name="Alt_NSN" 
+         Type="Text"
+         ID="{E39F8B4A-AAD2-419A-8FB8-FAEB33031C3E}"
+         Group="RFQ Workflow Columns" 
+         StaticName="Alt_NSN" />
+  
+  <Field DisplayName="Alternate Manufacturer Name" 
+         Name="Alt_Manufacturer_Name" 
+         Type="Text" 
+         ID="{8514E215-551A-4994-BD46-72D7CDA71FF4}" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Alt_Manufacturer_Name" />
+  
+  <Field DisplayName="Alternate Manufacturer Part Number"
+         Name="Alt_Manufacturer_Part_Number"
+         Type="Text" 
+         ID="{79EE3C4D-E951-4F26-86A9-D44508AA4666}" 
+         Group="RFQ Workflow Columns"
+         StaticName="Alt_Manufacturer_Part_Number" />
+  
+  <Field DisplayName="Alternate TLSP Vendor Part Number" 
+         Name="Alt_TLSP_Vendor_Part_Number" 
+         Type="Text" 
+         ID="{A90397A8-6599-4733-B894-A9636F60ACD9}" 
+         Group="RFQ Workflow Columns"
+         StaticName="Alt_TLSP_Vendor_Part_Number" />
+  
+  <Field DisplayName="Alternate Item Description"
+         Name="Alt_Item_Description"
+         Type="Text" 
+         ID="{DE4FA067-1C88-4A2C-B6D5-281A8AE76C54}" 
+         Group="RFQ Workflow Columns"
+         StaticName="Alt_Item_Description" />
+  
+  <Field Decimals="2" 
+         Min="0"
+         Max="1000000000" 
+         LCID="1033"
+         DisplayName="Alternate Transportation Price" 
+         Type="Currency"
+         ID="{17A283B4-AB5A-41A6-A4C7-706927EF601E}" 
+         Name="Alt_Transportation_Price"
+         Group="RFQ Workflow Columns"
+         StaticName="Alt_Transportation_Price">
+    <Default>0</Default>
+  </Field>
+  
+  <Field Decimals="2"
+         Min="0"
+         Max="1000000000"
+         LCID="1033"
+         DisplayName="Alternate Vendor Unit Price" 
+         Type="Currency" 
+         ID="{34DE378E-11A6-48AF-947C-59A323159AB0}"
+         Name="Alt_Vendor_Unit_Price"
+         Group="RFQ Workflow Columns" 
+         StaticName="Alt_Vendor_Unit_Price">
+    <Default>0</Default>
+  </Field>
+  
+  <Field MaxLength="3" 
+         DisplayName="Alternate Lead Time" 
+         Type="Text"
+         ID="{00A3794C-F2F4-47FF-B75E-657CB7CF9F9B}"
+         Name="Alt_Lead_Time" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Alt_Lead_Time" />
+  
+  <Field DisplayName="Alternate Comments" 
+         Name="Alt_Comments" 
+         Type="Text" 
+         ID="{1156982C-B502-4624-A97A-D1D464157CCC}"
+         Group="RFQ Workflow Columns" 
+         StaticName="Alt_Comments" />
+  
+  <Field MaxLength="7"
+         DisplayName="Alternate Procurement Agreement Compliant"
+         Type="Text"
+         ID="{0C129065-ED43-4F44-B983-14572A47617F}"
+         Name="Alt_PA_Compliant" 
+         Group="RFQ Workflow Columns"
+         StaticName="Alt_PA_Compliant" />
+
+  <Field MaxLength="7"
+         DisplayName="Alternate Trade Agreement Compliant"
+         Type="Text" 
+         ID="{C0873752-FBDF-4098-B82D-AB8DBFE8E635}" 
+         Name="Alt_Trade_Agreement_Compliant" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Alt_Trade_Agreement_Compliant" />
+
+  <Field MaxLength="7"
+         DisplayName="Alternate Berry Amendment Compliant" 
+         Type="Text" 
+         ID="{7EAAFCD5-ED75-4F64-B25D-A5DD9D169A1E}"
+         Name="Alt_Berry_Amendment_Compliant" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Alt_Berry_Amendment_Compliant" />
+  
+  <Field DisplayName="Alternate Country of Origin" 
+         Name="Alt_Country_of_Origin" 
+         Type="Text" 
+         ID="{60D2C276-FCFC-4E6D-877B-090711CFBB82}" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Alt_Country_of_Origin" />
+  
+  <Field Format="DateTime" 
+         DisplayName="Quote Due Date" 
+         Type="DateTime" 
+         ID="{6FF35DE7-6F35-434C-82F0-89A8C3916EBF}"
+         Name="Quote_Due_Date" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Quote_Due_Date" />
+  
+  <Field Decimals="0" 
+         DisplayName="Series Number" 
+         Type="Number" 
+         ID="{676B6CE3-4B2B-4257-9B50-77FC918EA365}"
+         Name="Series_Number" 
+         Group="RFQ Workflow Columns"
+         StaticName="Series_Number">
+    <Default>0</Default>
+  </Field>
+  
+  <Field Decimals="0" 
+         DisplayName="Series Total"
+         Type="Number"
+         ID="{950FAFBA-96A0-4815-B19A-B08D66F98880}" 
+         Name="Series_Total" 
+         Group="RFQ Workflow Columns"
+         StaticName="Series_Total">
+    <Default>0</Default>
+  </Field>
+  
+  <Field DisplayName="ShipTo DODAAC" 
+         Name="ShipTo_DODAAC" 
+         Type="Text" 
+         ID="{DD0D0C7E-9003-4759-9268-3AAE0FE9A27E}" 
+         Group="RFQ Workflow Columns"
+         StaticName="ShipTo_DODAAC" />
+
+  <Field Decimals="2" 
+         LCID="1033" 
+         DisplayName="Purchase Unit Price" 
+         Type="Currency" 
+         ID="{094E661E-43A8-4A48-899E-36D44DB78F2D}" 
+         Name="Purchase_Unit_Price" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Purchase_Unit_Price">
+    <Default>0</Default>
+  </Field>
+
+  <Field Decimals="2" 
+         LCID="1033" 
+         DisplayName="Purchase Extended Price" 
+         Type="Currency" 
+         ID="{38D8ADAB-4A52-4896-B7CE-DA1AAA013B6E}" 
+         Name="Purchase_Extended_Price" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Purchase_Extended_Price">
+    <Default>0</Default>
+  </Field>
+
+  <Field Decimals="2" 
+         LCID="1033" 
+         DisplayName="Alternate Purchase Unit Price" 
+         Type="Currency" 
+         ID="{2CC0C48E-02AF-4395-B88E-A60469D19D21}" 
+         Name="Alt_Purchase_Unit_Price"
+         Group="RFQ Workflow Columns" 
+         StaticName="Alt_Purchase_Unit_Price">
+    <Default>0</Default>
+  </Field>
+
+  <Field Decimals="2" 
+         LCID="1033" 
+         DisplayName="Alternate Purchase Extended Price" 
+         Type="Currency" 
+         ID="{037101FC-8315-4C0D-8DF5-DB866909E8AB}" 
+         Name="Alt_Purchase_Extended_Price" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Alt_Purchase_Extended_Price">
+    <Default>0</Default>
+  </Field>
+  
+  <Field DisplayName="Fiscal Year" 
+         Name="Fiscal_Year"
+         Type="Text" 
+         ID="{8B0D857E-CC6E-4E69-BBB7-CD9A220CCB21}"
+         Group="RFQ Workflow" 
+         StaticName="Fiscal_Year" />
+  
+  <Field Type="Choice" 
+         DisplayName="Line Status" 
+         ID="{09CC25A4-BA0F-4B81-BD01-BCA0237639A3}" 
+         Format="Dropdown" 
+         BaseType="Text" 
+         Name="Line_Status"
+         Group="RFQ Workflow" 
+         StaticName="Line_Status">
+    <Default>Processing</Default>
+    <CHOICES>
+      <CHOICE>Processing</CHOICE>
+      <CHOICE>Won</CHOICE>
+      <CHOICE>Lost</CHOICE>
+      <CHOICE>Cancel</CHOICE>
+    </CHOICES>
+  </Field>
+
+  <Field Decimals="2" 
+         LCID="1033" 
+         DisplayName="Burdened Unit Price" 
+         Type="Currency" 
+         ID="{D96F26AA-7E76-4B39-9B56-82EAF3C01AE7}"
+         Name="Burdened_Unit_Price" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Burdened_Unit_Price">
+    <Default>0</Default>
+  </Field>
+
+  <Field DisplayName="Vendor Name" 
+         Name="Vendor_Name" 
+         Type="Text" 
+         ID="{C120F6B5-6455-452F-A4C6-9AC9C03B7002}" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Vendor_Name" />
+
+  <Field Format="DateOnly" 
+         Description="" 
+         DisplayName="Order Date" 
+         Type="DateTime" 
+         ID="{C61C6D7F-F7B8-4B91-918C-64FAA36D3F2C}" 
+         Name="Order_Date" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Order_Date" />
+
+  <Field Format="DateOnly" 
+         Description="" 
+         DisplayName="Required Delivery Date"
+         Type="DateTime" 
+         ID="{5136F9FA-40F6-49FF-B398-7C31E0C443AE}" 
+         Name="Required_Delivery_Date" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Required_Delivery_Date" />
+
+  <Field DisplayName="Contract Number" 
+         Name="Contract_Number" 
+         Type="Text" 
+         ID="{27D373CE-E9F5-40DC-980F-A1858C60A7A9}"
+         Group="RFQ Workflow Columns" 
+         StaticName="Contract_Number" />
+
+  <Field DisplayName="Order Number" 
+         Name="Order_Number" 
+         Type="Text" 
+         ID="{1FF90B38-EB99-4A7C-BF23-FBDB7C1B2AEA}" 
+         Group="RFQ Workflow Columns" 
+         StaticName="Order_Number" />
+
+</Elements>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="be8a54bf-d31c-42c0-b1ec-041c74329c09" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="RFQ_SharePoint_Project.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="LAYOUTS\RfqWorkflow\Scripts\rfqworkflow.js" />
+    <TemplateFile Location="LAYOUTS\RfqWorkflow\WebServices\RFQWorkflowService.svc" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="RFQSharePointProject_Feature2\Feature.xml" />
+    <FeatureManifest Location="RFQSharePointProject_Feature3\Feature.xml" />
+  </FeatureManifests>
+</Solution>

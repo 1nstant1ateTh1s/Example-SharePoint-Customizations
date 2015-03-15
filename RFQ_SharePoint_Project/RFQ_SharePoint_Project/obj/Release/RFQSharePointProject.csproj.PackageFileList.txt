@@ -1,0 +1,1 @@
+bin\Release\RFQ_SharePoint_Project.wsp

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01005fef4d7efeeb4ac2ab452c4b19191026"
+               Name="RFQOrderItemContentType - FES-RFQOrderItem"
+               Group="RFQ Workflow Content Types"
+               Description="Create an RFQ Order Item for TENT/SOE contract types"
+               Inherits="FALSE"
+               Version="1">
+    <FieldRefs>
+      <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" DisplayName="Order Item ID" /> <!-- Order Item ID -->
+      <FieldRef ID="{7897489c-3f16-4347-99bc-0c5b0857de64}" /> <!-- Quote Number -->
+      <FieldRef ID="{88B61AF3-51CF-4F63-AD95-29406F8B5A91}" /> <!-- Region -->
+      <FieldRef ID="{C04C4C45-7A53-40F5-8C26-8AEE603CC9B3}" /> <!-- NSN -->
+      <FieldRef ID="{693468e8-3f74-46be-abe6-4990372599f2}" /> <!-- Quantity -->
+      <FieldRef ID="{9da97a8a-1da5-4a77-98d3-4bc10456e700}" /> <!-- Comments -->
+      <FieldRef ID="{bdad87fe-a846-49e8-961d-e921ebbbfb4c}" /> <!-- TLSP Vendor Extension -->
+      <FieldRef ID="{6c65faba-a0bd-439b-a204-e461be3be86d}" /> <!-- Vendor ID -->
+      <FieldRef ID="{35fb9e8a-8b8d-4365-8757-a19d7fc4eeed}" /> <!-- Region Group -->
+      <FieldRef ID="{ee528369-71ce-4b3c-9707-c7969bd87a0c}" /> <!-- Request Type -->
+      <FieldRef ID="{e50eb394-4863-4b4a-bf32-470a5e992d84}" /> <!-- Core List Number -->
+      <FieldRef ID="{dcb3eb00-c402-4bf0-b9a3-580a5c3295af}" /> <!-- Manufacturer Name -->
+      <FieldRef ID="{e22d61af-acb6-4671-80cf-1bcb4be88b10}" /> <!-- Manufacturer Part Number -->
+      <FieldRef ID="{d92cd0e6-0e53-4808-b765-898135ada360}" /> <!-- TLSP Vendor Part Number -->
+      <FieldRef ID="{4598a276-e436-440e-aaf1-764f88158eff}" /> <!-- Item Description -->
+      <FieldRef ID="{90bcba7c-396d-42c6-979d-3426230b2478}" /> <!-- Additional Information -->
+      <FieldRef ID="{34360c2c-7d0e-4e98-86ec-92cc7e08c2e9}" /> <!-- Requested Delivery Date -->
+      <FieldRef ID="{ce759e35-0cbe-4361-ab75-2d9e79cd7aef}" /> <!-- Unit of Issue -->
+      <FieldRef ID="{94cb0f43-c15a-4cb2-863f-12413a04bd4c}" /> <!-- Delivery Destination -->
+      <FieldRef ID="{f6f64d9c-8ee5-41c3-8aca-1bca21f04b31}" /> <!-- FOB Origin -->
+      <FieldRef ID="{4e24cb78-fd3d-41ef-bc6d-8c84fd3a30be}" /> <!-- RFID Required -->
+      <FieldRef ID="{cbd62240-44cf-4ab4-9f5a-248175e9a546}" /> <!-- Special Project Code -->
+      <FieldRef ID="{5b76f9cd-4c0d-412d-a9d2-41454813772a}" /> <!-- Transportation Price Required -->
+      <FieldRef ID="{01c49a8d-b85a-411d-97ad-e508fc216071}" /> <!-- Transportation Price -->
+      <FieldRef ID="{eb989cc1-2734-428f-8222-fabf988aeabc}" /> <!-- Vendor Unit Price -->
+      <FieldRef ID="{6f3f729c-4d5d-435c-8762-df325b8bc948}" /> <!-- Lead Time -->
+      <FieldRef ID="{91a0840a-c7a0-4e54-976b-f2afc5624c01}" /> <!-- Trade Agreement Compliant -->
+      <FieldRef ID="{3f2e5d7c-7a5b-4d45-97a2-1a409f8dac00}" /> <!-- Berry Amendment Compliant -->
+      <FieldRef ID="{5e2939b4-cfb4-4545-bb0a-7e8372335621}" /> <!-- Country of Origin -->
+      <FieldRef ID="{b7a0fb20-c9b9-4f95-a691-9ff385ededeb}" /> <!-- Customer Permits Alternates -->
+      <FieldRef ID="{edd76e31-3bc2-442f-a903-3f44dd44b478}" /> <!-- Alternate Core List Number -->
+      <FieldRef ID="{e39f8b4a-aad2-419a-8fb8-faeb33031c3e}" /> <!-- Alternate NSN -->
+      <FieldRef ID="{8514e215-551a-4994-bd46-72d7cda71ff4}" /> <!-- Alternate Manufacturer Name -->
+      <FieldRef ID="{79ee3c4d-e951-4f26-86a9-d44508aa4666}" /> <!-- Alternate Manufacturer Part Number -->
+      <FieldRef ID="{a90397a8-6599-4733-b894-a9636f60acd9}" /> <!-- Alternate TLSP Vendor Part Number -->
+      <FieldRef ID="{de4fa067-1c88-4a2c-b6d5-281a8ae76c54}" /> <!-- Alternate Item Description -->
+      <FieldRef ID="{17a283b4-ab5a-41a6-a4c7-706927ef601e}" /> <!-- Alternate Transportation Price -->
+      <FieldRef ID="{34de378e-11a6-48af-947c-59a323159ab0}" /> <!-- Alternate Vendor Unit Price -->
+      <FieldRef ID="{00a3794c-f2f4-47ff-b75e-657cb7cf9f9b}" /> <!-- Alternate Lead Time -->
+      <FieldRef ID="{1156982c-b502-4624-a97a-d1d464157ccc}" /> <!-- Alternate Comments -->
+      <FieldRef ID="{c0873752-fbdf-4098-b82d-ab8dbfe8e635}" /> <!-- Alternate Trade Agreement Compliant -->
+      <FieldRef ID="{7eaafcd5-ed75-4f64-b25d-a5dd9d169a1e}" /> <!-- Alternate Berry Amendment Compliant -->
+      <FieldRef ID="{60d2c276-fcfc-4e6d-877b-090711cfbb82}" /> <!-- Alternate Country of Origin -->
+      <FieldRef ID="{6ff35de7-6f35-434c-82f0-89a8c3916ebf}" /> <!-- Quote Due Date -->
+      <FieldRef ID="{676b6ce3-4b2b-4257-9b50-77fc918ea365}" /> <!-- Series Number -->
+      <FieldRef ID="{950fafba-96a0-4815-b19a-b08d66f98880}" /> <!-- Series Total -->
+      <FieldRef ID="{dd0d0c7e-9003-4759-9268-3aae0fe9a27e}" Name="ShipTo_DODAAC" DisplayName="ShipTo DoDAAC" /> <!-- ShipTo DoDAAC -->
+      <FieldRef ID="{094E661E-43A8-4A48-899E-36D44DB78F2D}" /> <!-- Purchase Unit Price -->
+      <FieldRef ID="{38D8ADAB-4A52-4896-B7CE-DA1AAA013B6E}" /> <!-- Purchase Extended Price -->
+      <FieldRef ID="{2CC0C48E-02AF-4395-B88E-A60469D19D21}" /> <!-- Alternate Purchase Unit Price -->
+      <FieldRef ID="{037101FC-8315-4C0D-8DF5-DB866909E8AB}" /> <!-- Alternate Purchase Extended Price -->
+      <FieldRef ID="{8b0d857e-cc6e-4e69-bbb7-cd9a220ccb21}" /> <!-- Fiscal Year -->
+      <FieldRef ID="{09cc25a4-ba0f-4b81-bd01-bca0237639a3}" /> <!-- Line Status -->
+
+      <FieldRef ID="{D96F26AA-7E76-4B39-9B56-82EAF3C01AE7}" /> <!-- Burdened Unit Price -->
+      
+    </FieldRefs>
+  </ContentType>
+</Elements>

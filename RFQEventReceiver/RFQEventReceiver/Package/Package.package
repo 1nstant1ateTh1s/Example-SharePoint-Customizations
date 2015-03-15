@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="cac50825-a9c2-4278-9af8-77bb4f03a3f3" solutionId="cac50825-a9c2-4278-9af8-77bb4f03a3f3" resetWebServer="false" name="RFQEventReceiver" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="238f34f4-858f-4e13-92f6-90bbfce5452f" />
+  </features>
+</package>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <CustomAction Id="SubmitRFQBidAction"
+                Location="CommandUI.Ribbon"
+                RegistrationType="List"
+                RegistrationId="101"
+                Title="Submit RFQ Bid Action">
+    <CommandUIExtension>
+      <!-- Define the UI button to be used for this custom action. -->
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.Documents.Manage.Controls._children">
+
+          <Button Id="Ribbon.Documents.Manage.Controls.SubmitRFQBidButton" 
+                  Alt="Submit RFQ Bid" 
+                  Command="Submit_RFQ_Bid" 
+                  Image32by32="/_layouts/1033/images/GiveFeedback32.png" 
+                  Sequence="0" 
+                  LabelText="Submit RFQ Bid"
+                  TemplateAlias="o1"/>
+          
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <!-- Define the action expected on the button click -->
+        <CommandUIHandler Command="Submit_RFQ_Bid" 
+                          CommandAction="javascript:rfqObj.submitRfqBid.process('{SelectedListId}','{SelectedItemId}');" 
+                          EnabledScript="javascript:rfqObj.submitRfqBid.isEnabled();" />
+      </CommandUIHandlers>
+    </CommandUIExtension>  
+  </CustomAction>
+  
+</Elements>
